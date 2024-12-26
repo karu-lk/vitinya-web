@@ -1,0 +1,67 @@
+  @font-face {
+      font-family: "MuseoModerno";
+      src: local("MuseoModerno"),
+          url("./../accets/fonts/MuseoModerno.ttf") format("ttf");
+  }
+
+  header {
+      background-color: #329259;
+      width: auto;
+      height: 160px;
+      margin: 5px 5px 0 5px;
+  }
+
+  header h1 {
+      font-family: "MuseoModerno";
+      margin-top: 0;
+      padding-left: 25px;
+      font-size: 55px;
+      font-weight: 400;
+      background-image: linear-gradient(to bottom left, #f9f9f9, #c1c10d);
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+  }
+
+  header h3 {
+      padding-left: 25px;
+      font-family: "MuseoModerno";
+  }
+
+  .new-order-container {
+      margin: 5px 5px 0 5px;
+  }
+
+  .item-group {
+      /* background-color: beige; */
+
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 180px 180px 180px;
+      gap: 15px 18px;
+      grid-template-areas:
+          "coffee1 coffee2 coffee3"
+          ". . ."
+          ". . .";
+  }
+
+  .item-wrapper {
+      background-color: rgb(212, 213, 162);
+      padding-left: 15px;
+      border-radius: 9px;
+  }
+
+
+  .image-wrapper {
+      float: left;
+      padding: 50px 0 0 30px;
+  }
+
+  .content-wrapper {
+      float: left;
+      padding: 20px 0 0 80px;
+  }
+
+  .coffee-image {
+      border-radius: 50%;
+  }
