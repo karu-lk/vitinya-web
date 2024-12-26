@@ -10,3 +10,8 @@ URQL is a GraphQL client that is both highly flexible and customizable - and is 
 
 ---
 
+CDK project for AWS AppSync can be found [here](https://github.com/karu-lk/vitinya-cdk).
+
+---
+
+![Vitinya UI](https://github.com/karu-lk/vitinya-web/blob/main/assets/images/ui-2.png)
